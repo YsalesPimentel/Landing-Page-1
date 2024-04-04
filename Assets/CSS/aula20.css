@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 
+        [um] 1fr 
+        [dois] 1fr 
+        [três] 1fr 
+        [quatro];
+    gap: 30px;
+    row-gap: 30px;
+}
+
+.grid div {
+    background: purple;
+    min-height: 50px;
+}
+
+.grid div:nth-child(5) {
+    background: cyan;
+    grid-column: span 2 / span 2;
+} 

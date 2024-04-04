@@ -1,0 +1,19 @@
+ul li:nth-child(even) {
+    background: rebeccapurple;
+}
+
+ul li:nth-child(odd) {
+    background: goldenrod;
+}
+
+ul li:nth-child(3n) {
+    background: cyan;
+}
+
+ul li:nth-child(odd) {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+ul li:nth-child(even) {
+    border: 3px solid green;
+}
